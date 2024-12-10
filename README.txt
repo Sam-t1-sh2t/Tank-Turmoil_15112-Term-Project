@@ -1,5 +1,6 @@
 README
-===============================================Project Title: Tank Turmoil
+===============================================
+Project Title: Tank Turmoil
 
 Tank Turmoil is a 1v1 multiplayer game that enables two players to play as opponent tanks on a randomly generated battlefield. Using keyboard and touchpad as sources of inputs, the players can move/turn the tanks, fire different types of weapons, and claim special power-ups that are randomly spawned on the map after a fixed interval of time. The borders and walls of the battlefield will stop tanks from moving forward, and weapons bounce off the walls and flies in hard-to-predict trajectories. All of this contributes to a chaotic battlefield environment. Remember, you may hit by ANY WEAPON regardless of FROM WHERE OR FROM WHOM it is. You only got ONE life. Have fun!
 
