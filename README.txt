@@ -1,5 +1,5 @@
 README
-***CMU_Graphics module is required in order to properly run this game.
+***CMU_Graphics module is required in order to properly run this game. Link to download page: https://academy.cs.cmu.edu/desktop 
 ===============================================
 Project Title: Tank Turmoil
 
