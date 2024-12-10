@@ -1,6 +1,5 @@
 README
-
-***CMU_Graphics module is required in order to properly run this game. Link to download page: https://academy.cs.cmu.edu/desktop 
+CMU_Graphics module is required in order to properly run this game. Link to download page: https://academy.cs.cmu.edu/desktop 
 ===============================================
 Project Title: Tank Turmoil
 
@@ -9,7 +8,7 @@ Tank Turmoil is a 1v1 multiplayer game that enables two players to play as oppon
 Run Instructions: No external modules are used, so the program should be able to run as long as cmu_graphics is installed at the right place.
 
 Shortcut Commands: None
-***Necessary instructions on how to play the game are all displayed in the game
+Necessary instructions on how to play the game are all displayed in the game
 ===============================================
 On a personal note, some technologies and concepts used to realize features in the game that I think is worth mentioning:
 -Recursion and backtracking (e.g. randomly generating the battlefield and generating the laser weapon)
