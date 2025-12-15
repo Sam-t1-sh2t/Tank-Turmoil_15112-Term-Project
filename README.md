@@ -1,18 +1,79 @@
-README
-============================
-CMU_Graphics module is required in order to properly run this game. Link to download page: https://academy.cs.cmu.edu/desktop 
+# Tank Turmoil
 
-Project Title: Tank Turmoil
-============================
-Tank Turmoil is a 1v1 multiplayer game that enables two players to play as opponent tanks on a randomly generated battlefield. Using keyboard and touchpad as sources of inputs, the players can move/turn the tanks, fire different types of weapons, and claim special power-ups that are randomly spawned on the map after a fixed interval of time. The borders and walls of the battlefield will stop tanks from moving forward, and weapons bounce off the walls and flies in hard-to-predict trajectories. All of this contributes to a chaotic battlefield environment. Remember, you may hit by ANY WEAPON regardless of FROM WHERE OR FROM WHOM it is. You only got ONE life. Have fun!
+Tank Turmoil is a 1v1 multiplayer tank game where two players battle on a
+randomly generated battlefield. Players control tanks using the keyboard
+and touchpad, fire multiple weapon types, and collect randomly spawned
+power-ups. Walls and boundaries affect movement, while projectiles bounce
+off obstacles, creating chaotic and unpredictable gameplay.
 
-Run Instructions: No external modules are used, so the program should be able to run as long as cmu_graphics is installed at the right place.
+Each player has only **one life** — any weapon can hit you, from anywhere,
+fired by anyone. Have fun!
 
-Shortcut Commands: None
-Necessary instructions on how to play the game are all displayed in the game
+## Demo / Gameplay
 
-On a personal note, some technologies and concepts used to realize features in the game that I think is worth mentioning:
--Recursion and backtracking (e.g. randomly generating the battlefield and generating the laser weapon)
--Cross Product testing (dot-rectangle overlap testing) used to check whether the tank, a potentially rotated rectangle, is hit by any existing weapons on the battlefield.
+Instructions on how to play are displayed directly in-game.
+No external shortcut commands are required.
 
-Tips: if you have time, try to click as many times as possible on the ratings of this game! Either minus or plus works!
+## Project Structure
+
+```
+Tank-Turmoil_15112-Term-Project/
+├── src/
+│   ├── Tank wars main program.py
+│   ├── tank.py
+│   ├── cannon.py
+│   ├── clusterCannon.py
+│   ├── laser.py
+│   ├── mazeGen.py
+│   └── segments.py
+├── docs/
+│   └── 15112 TP Proposal.docx
+├── README.md
+```
+
+## Dependencies
+
+This project requires the **CMU Graphics** animation package.
+
+Download it from:
+https://academy.cs.cmu.edu/desktop
+
+After downloading, place the `cmu_graphics` folder in the project root:
+
+```
+Tank-Turmoil_15112-Term-Project/
+├── cmu_graphics/
+├── src/
+├── docs/
+└── README.md
+```
+
+No other external libraries are required.
+
+## How to Run
+
+Once `cmu_graphics` is installed and placed correctly, run:
+
+```bash
+python src/"Tank wars main program.py"
+```
+
+## Technical Highlights
+
+- **Recursion & backtracking**
+  - Random battlefield generation
+  - Laser weapon path generation
+
+- **Geometric collision detection**
+  - Cross-product–based dot-rectangle overlap testing
+  - Supports collision detection on rotated tank bodies
+
+- **Physics-based interactions**
+  - Projectile bouncing off walls
+  - Unpredictable weapon trajectories
+
+## Notes
+
+This project was developed as part of **CMU 15-112**.
+The `cmu_graphics` package is not included in this repository and must be
+installed separately.
